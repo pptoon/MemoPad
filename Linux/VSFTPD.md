@@ -19,9 +19,15 @@ netstat -nltp | grep 21
   
 ```
 如果不能访问，要关闭本机的防火墙  
-如果关了防火墙还不能访问，要看云服务提供商是不是有安全策略，如阿里云的安全组设置。
-```
+如果关了防火墙还不能访问，要看云服务提供商是不是有安全策略，如阿里云的安全组设置(20/21端口)。
+```  
 
+如果要设置ftp开机启动，需要设置
+```
+# systemctl enable vsftpd.service
+Created symlink from /etc/systemd/system/multi-user.target.wants/vsftpd.service to /usr/lib/systemd/system/vsftpd.service.
+
+```
 
 
 
