@@ -29,6 +29,35 @@ Created symlink from /etc/systemd/system/multi-user.target.wants/vsftpd.service 
 
 ```
 
+# 设置登录用户  
+运行以下命令创建 ftptest 用户。    
+```
+useradd ftptest
+
+```
+
+运行以下命令修改 ftptest 用户密码。
+
+```
+passwd ftptest
+
+```
+
+修改/etc/vsftpd/vsftpd.conf：  
+
+```
+anonymous enable=NO
+local_enable=YES
+```
+修改ftp目录权限，重启ftp服务
+```
+chmod o+w /var/ftp/pub/
+systemctl restart vsftpd.service
+```
+
+
+
+
 
 
 
