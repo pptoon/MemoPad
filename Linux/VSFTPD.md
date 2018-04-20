@@ -59,8 +59,10 @@ systemctl restart vsftpd.service
 
 
 
-
-
+# 其他问题
+[在阿里云“专有网络”网络类型中配置vsftpd](https://bbs.aliyun.com/read/534639.html?spm=a2c4e.11155515.0.0.XBhKe5)  
+[阿里云FTP：“服务器发回了不可路由的地址。使用服务器地址代替。”](https://bbs.aliyun.com/read/539360.html?page=e)  
+[http://bbs.51cto.com/thread-1156344-1.html](vsftp 无法启动 在线等)
 
 #References  
 [基于 CentOS 搭建 FTP 文件服务](https://www.linuxidc.com/Linux/2017-11/148518.htm)  
