@@ -54,4 +54,6 @@ $ ./runInstaller
 [centos 安装oracle 报Checking swap space: 0 MB available, 150 MB required. Failed <<<<](https://www.cnblogs.com/a9999/p/6957280.html)  
 
 # 参考文章：
-[最小安装centos 7 无GUI静默安装 oracle 12c，打造轻量linux化服务器](https://www.cnblogs.com/mokeyish/p/5531769.html)
+[最小安装centos 7 无GUI静默安装 oracle 12c，打造轻量linux化服务器](https://www.cnblogs.com/mokeyish/p/5531769.html)  
+[CENTOS7中ORACLE12静默安装记录](https://www.jianshu.com/p/36a78274a00e)  
+[CentOS7 minimal静默安装Oracle 12c](https://blog.csdn.net/jssg_tzw/article/details/53402743)
