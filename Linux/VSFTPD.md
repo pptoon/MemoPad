@@ -29,5 +29,7 @@ netstat -nltp | grep 21
 
 #References  
 [基于 CentOS 搭建 FTP 文件服务](https://www.linuxidc.com/Linux/2017-11/148518.htm)  
-[Linux云主机服务器安全策略设置](https://help.aliyun.com/knowledge_detail/51062.html)
-[安全组设置](https://help.aliyun.com/document_detail/25833.html)
+[Linux云主机服务器安全策略设置](https://help.aliyun.com/knowledge_detail/51062.html)  
+[安全组设置](https://help.aliyun.com/document_detail/25833.html)  
+[使用 FTP 上传或下载文件](https://helpcdn.aliyun.com/document_detail/58746.html?spm=a2c4g.11186623.2.26.eV9Wur#ftp)  
+[使用 ECS 实例创建 FTP 站点](https://helpcdn.aliyun.com/document_detail/51998.html?spm=a2c4g.11186623.2.13.nFE0qu)
